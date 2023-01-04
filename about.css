@@ -1,0 +1,56 @@
+.aboutPage {
+    padding-top: 0;
+    margin-top: -80px;
+    display: grid;
+}
+.aboutPage > p {
+    font-size: 20px; 
+    line-height: 175%
+}
+/* STATS */
+.stats * {
+    color: var(--neutral-4);
+}
+.stats {
+    padding: 50px 32px;
+    gap: 80px;
+}
+.stats > h3 {
+    font-size: 32px;
+}
+.stats-bot {
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+.stat {
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+/* hero video */
+.hero-video {
+    box-shadow: var(--shadow-l);
+    margin: auto;
+    height: 500px;
+    position: relative;
+}
+.progressBar {
+    height: 16px;
+    background-color: var(--primary-1);
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.playButton {
+    position: absolute;
+    inset: -9999px;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    transition: all .3s;
+}
+.hero-video video {
+    cursor: pointer;
+}

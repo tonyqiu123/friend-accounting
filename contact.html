@@ -1,0 +1,244 @@
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 
+    <!-- META TAGS GENERAL -->
+    <link rel="cannonical" href="https://tonyswebdesigns.ca">
+    <meta name="keywords" content="Canadian Web Design Company">
+    <meta name="description" content="Better leads for your website - Tony's Web Designs">
+    <meta name="image" content="imgs/logo.svg">
+
+    <!-- META TAGS GOOGLE -->
+    <meta property="og:title" content="https://tonyswebdesigns.ca">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tonyswebdesigns.ca" />
+    <meta property="og:image" content="imgs/logo.svg">
+    <meta property="og:description" content="Better leads for your website - Tony's Web Designs">
+
+    <!-- META TAKES MISCENALLENEOUS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true"/> 
+    <meta name="MobileOptimized" content="320"/> 
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="imgs/favicon.png" type="image/png"/>
+    <link rel="icon" href="imgs/favicon.png" type="image/png">
+    <meta name="theme-color" content="#266AA1">
+    <title>Contact - Friend Accounting</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    
+
+    <!-- NAVBAR -->
+    <div class="nav">
+        <nav class="row">
+            <div class="nav-left row">
+                <a href="index"><img src="imgs/logonav.svg"/></a>
+                <div class="vr" style="margin-right: 10px"></div>
+                <div class="dropDownCont row">
+                    <img src="imgs/canadaFlag.svg"/>
+                    <p style="color: var(--neutral-5)">English</p>
+                    <img src="imgs/downChevron.svg" style="width: 12px"/>
+                    <div class="dropDown column">
+                        <a href="index/CN" class="row">
+                            <img src="imgs/chinaFlag.svg"/>
+                            <p>中文</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-right row">
+                <a href="index"><p>Home</p></a>
+                <div href="services" class="row dropDownCont">
+                    <p>Services</p>
+                    <img src="imgs/downChevron.svg" style="width: 12px"/>
+                    <div class="dropDown column">
+                        <a href="index/CN" class="row">
+                            <img src="imgs/individual.svg"/>
+                            <p>Individual Services</p>
+                        </a>
+                        <a href="index/CN" class="row">
+                            <img src="imgs/corporate.svg"/>
+                            <p>Corporate Services</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="about"><p>About</p></a>
+                <a href="contact"><p>Contact</p></a>
+                <a class="navConsult" href="contact"><button style="padding: 12px 24px" class="primaryButton row"><p>Book an Appointment In 1 Minute</p></button></a>
+            </div>
+            <img src="imgs/burger.svg" class="burger"/>
+        </nav>
+    </div>
+    <main>
+
+    <!-- NAVBAR-MOBILE -->
+    <div class="navMobile">
+        <div class="navMobile-top row">
+            <a href="index"><img src="imgs/logonav.svg"/></a>
+            <img src="imgs/burger.svg" class="burgerMobile"/>
+        </div>
+        <div class="navMobile-bot column">
+            <a href="index"><p>Home</p></a>
+            <a href="services"><p>Individual Services</p></a>
+            <a href="services"><p>Corporate Services</p></a>
+            <a href="about"><p>About</p></a>
+            <a href="contact"><p>Contact</p></a>
+            <a style="border-bottom: 1px solid var(--neutral-2)" href="contact"><p>Book an Appointment In 1 Minute</p></a>
+        </div>
+    </div>    
+    <!-- NAVBAR-MOBILE BLACK BG -->
+    <div class="blackBG"></div>
+
+
+    <!-- non-home hero -->
+    <section class="nonHomeHero column">
+        <h1>Contact Us</h1>
+        <div class="hr"></div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact row">
+        <div class="contact-left column">
+            <p>Whether you’re interested in our referral program or a custom solution, we’re here to help you find the right plan to support your need. Tell us about you and we’ll be in touch.</p>
+            <div class="row">
+                <img src="imgs/Icons/mail.svg"/>
+                <div class="column">
+                    <p>Email Us</p>
+                    <p>Reach out to us at <a href="">tax6479977768@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imgs/Icons/phone.svg"/>
+                <div class="column">
+                    <p>Chat With Us</p>
+                    <p>Make a phone call to us at <a href="">(647) 997-7768</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imgs/individual.svg" style="filter: brightness(0);"/>
+                <div class="column">
+                    <p>Meet With Us</p>
+                    <p>Meet up in-person by <a href="">booking an appointment</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- form -->
+        <div class="contact-right column">
+            <form class="contact-form column" action="https://formsubmit.co/tonyqiu12345@gmail.com" method="POST">
+                <div style="gap: 24px;" class="row">
+                    <div class="column">
+                        <p>Full name*</p>
+                        <input required type="text" name="name" required placeholder="Peter Qiu">
+                    </div>
+                    <div class="column">
+                        <p>Phone number <span style="font-size: 14px; color: var(--neutral-5)">(optional)</span></p>
+                        <input type="phone" name="phone" placeholder="647 997 7768">
+                    </div>
+                </div>
+                <p>Email Address*</p>
+                <input required type="email" name="email" required placeholder="tax6479977768@gmail.com">
+                
+                <p>Message*</p>
+                <textarea name="message" required type="text" placeholder="Can you tell me more about your process for working with small business owners?"></textarea>
+                <input type="hidden" name="_next" value="https://brightbearsinfo.com/thanks">
+                <input type="hidden" name="_captcha" value="false">
+                <div style="margin-bottom: 10px" class="g-recaptcha" data-sitekey="6LdKtL8jAAAAADKTxiemdAaBUXwxZAQBcW6K30Rr"></div>
+                <a class="wideButton"><button type="submit" class="primaryButton"><p style="margin-bottom: 0; font-size: 18px; color: var(--neutral-1)">Submit</p></button></a>
+            </form>
+        </div>
+
+    </section>
+
+
+        <!-- SERVICES -->
+        <div class="bgSVG">
+            <img src="imgs/bgSVG/gradientSquares.svg"/>
+            <section class="services row">
+                <div class="services-individual column">
+                    <img src="imgs/individualGreen.svg"/>
+                    <h4>Individual Services</h4>
+                    <p class="smallText">Personal tax returns, tax credits and deductions, self-employed tax planning, representation before the CRA, taxation of foreign income</p>
+                    <a class="button row"><p>See all individual services</p><img src="imgs/up-right-arrow.svg"/></a>
+                </div>
+                <div class="services-corporate column">
+                    <img src="imgs/corporateGreen.svg"/>
+                    <h4>Corporate Services</h4>
+                    <p class="smallText">Corporate income tax returns, provincial corporate income tax returns, claiming R&D tax credits, tax returns for foreign affiliates, representation before the CRA</p>
+                    <a class="button row"><p>See all corporate services</p><img src="imgs/up-right-arrow.svg"/></a>
+                </div>
+            </section>
+        </div>
+ 
+        
+        <!-- BOTTOM CTA -->
+        <section class="botCTA column">
+            <div class="row">
+                <div class="botCTA-top column">
+                    <h3>It takes <span>1 minute</span> to book an appointment with an Accountant</h3>
+                    <a href="contact" target="_blank"><button class="primaryButton row"><p>Book an Appointment In 1 Minute</p><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.3611 0L12.75 8L5.3611 16L3.25 13.8667L8.5278 8L3.25 2.1333L5.3611 0Z" fill="white"/>
+                        </svg>
+                        </button>
+                    </a>
+                </div>
+                <p>Get expert advice and support on all your financial matters. By working with us, you'll save time and have peace of mind knowing your financial affairs are being handled by qualified professionals</p>
+            </div>
+            <img src="https://cdn.discordapp.com/attachments/715319623637270638/1059975405169291385/image.png"/>
+        </section>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d171153.50200606455!2d-79.49487013586368!3d43.76829157112026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d15f9fcf7123%3A0xeb679b63b57aec3!2s4168%20Finch%20Ave%20E%2C%20Scarborough%2C%20ON%20M1S%205H6!5e0!3m2!1sen!2sca!4v1671552246388!5m2!1sen!2sca" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- FOOTER -->
+        <footer class="column">
+            <div class="footer-top row">
+                <div class="column">
+                    <a class="row" href="" style="height: fit-content"><img src="imgs/footerlogo.svg"/></a>
+                    <p style="color: var(--neutral-3); font-size: 16px; margin-bottom: 8px">At Friend Accounting, we pride ourselves on our extensive experience in the industry. With over 10 years of helping clients with all of their accounting needs, we have the expertise and knowledge to handle any situation. Whether you're a small business owner looking to streamline your financial processes or an individual in need of accounting support, we are here to help.</p>
+                </div>
+                <div class="row">
+                    <div class="footer-top-list column">
+                        <p>Navigation</p>
+                        <a href="index"><p>Home</p></a>
+                        <a href="about"><p>About</p></a>
+                        <a href="gallery"><p>Services</p></a>
+                        <a href="contact"><p>Contact us</p></a>
+                    </div>
+                    <div class="footer-top-list column">
+                        <p>Get In Touch</p>
+                        <a href="tel:416-985-9299"><p>Tel: (647) 997-7768</p></a>
+                        <a href="tel:416-985-9299"><p>tax6479977768@gmail.com</p></a>
+                        <a href="tel:416-985-9299"><p>Unit PH25, 4168 Finch Ave E<br>Scarborough, ON M1S 3V1</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hr" style="height: 1px; max-width: 1336px; margin: 40px 0"></div>
+            <div class="footer-bottom row">
+                <p style="color: var(--neutral-2); font-size: 12px" class="smallText">© 2022 Friend Accounting. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="eventRecap.js"></script>
+    <script src="all.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1000,
+            distance: 5
+         })
+      </script>
+</body>
+</html>
