@@ -1,0 +1,123 @@
+/* adding a form at the start of the hero would lead to many conversions and leads. However, my dad is refusing new clients */
+
+.hero {
+    padding-bottom: 0;
+    overflow: unset;
+}
+.hero-top {
+    height: fit-content;
+    gap: 40px;
+}
+.hero-top-left {
+    gap: 40px;
+    max-width: 650px;
+}
+.hero-textContainer {
+    gap: 40px;
+    justify-content: center;
+}
+.hero-butCont {
+    width: fit-content;
+    gap: 32px;
+}
+/* STATS */
+.stats * {
+    color: var(--neutral-4);
+}
+.stats {
+    padding: 50px 0;
+    gap: 80px;
+}
+.stats-bot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-end;
+    gap: 32px;
+}
+.stat {
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.stat > p {
+    white-space: nowrap;
+    font-size: 12px;
+}
+/* SERVICES */
+.services {
+    gap: 40px;
+}
+.services > div {
+    background-color: var(--neutral-1);
+    box-shadow: var(--shadow-l);
+    justify-content: center;
+    padding: 24px;
+    min-height: 400px;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+.services > div > .button {
+    margin-top: 16px;
+}
+.services > div .smallText {
+    max-width: 400px;
+}
+/* ABOUT */
+.about {
+    align-items: center;
+    gap: 32px;
+}
+.about-bot {
+    gap: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-bot > * {
+    width: 100%;
+}
+.about-right {
+    gap: 32px;
+}
+/* GOOGLE MAPS */
+iFrame {
+    margin-bottom: -4px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .hero {
+        margin-top: 64px;
+    }
+    .hero-top {
+        flex-direction: column;
+    }
+    .hero-textContainer {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .stats-bot {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+    .services {
+        flex-direction: column;
+    }
+    .about-bot {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .hero-textContainer {
+        gap: 32px;
+    }
+    .hero-butCont {
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+}

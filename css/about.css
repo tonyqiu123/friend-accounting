@@ -1,0 +1,15 @@
+.aboutPage {
+    padding-top: 0;
+    margin-top: -80px;
+    display: grid;
+}
+.aboutPage > p {
+    font-size: 20px; 
+    line-height: 175%
+}
+@media only screen and (max-width: 750px) {
+    .aboutPage > p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
