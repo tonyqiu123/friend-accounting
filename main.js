@@ -60,12 +60,17 @@ video.addEventListener("ended", function() {
 })
 
 // form
-document.querySelector(".contact-form").addEventListener('submit', function(event) {
+var form = document.getElementById("form")
+
+console.log(form)
+console.log("test")
+form.addEventListener('submit', function(event) {
   event.preventDefault()
 
   var response = grecaptcha.getResponse();
   if(response.length == 0) {
+    alert("Unpassed reCAPTCHA")
   } else {
-    document.querySelector(".contact-form").submit()
+    form.submit()
   }
 })
